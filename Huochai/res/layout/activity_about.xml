@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/room_background">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerInside"
+        android:src="@drawable/p" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="64dp"
+        android:textSize="18dp"
+        android:textColor="#FF4500"
+        android:text="会员工作室出品" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:text="联系方式：Grand_D@163.com"
+        android:textColor="#FF4500"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/tv_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="29dp"
+        android:lineSpacingExtra="9dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="50dp"
+        android:text="       通过题目的要求，精心选择你要移动的火柴棒，你会发现这个世界很奇妙，简单的一根火柴可以改变一个数字的大小，简单的一根火柴能够让等式成立，最主要的是简单的一根根火柴能够带给你无限的联想，无穷的乐趣；开发你的大脑，激发你的潜能。"
+        android:textColor="#ee555555"
+        android:textSize="18dp"
+        android:textStyle="normal"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:paddingTop="20dp"
+        android:text="只要功夫好，火柴变快刀"
+        android:textColor="#Dfa0DD"
+        android:textSize="20dp"
+        android:typeface="monospace" />
+
+</RelativeLayout>

@@ -1,0 +1,79 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/e"
+    android:orientation="vertical" >
+
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center_horizontal"
+	    android:orientation="vertical" >
+
+	    <com.example.huochai.view.NumberSeekBar
+        android:id="@+id/bar0"
+        style="@style/NumberProgressBar_Default"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        android:thumb="@drawable/thumb_bar" 
+        android:progressDrawable="@drawable/numberseekbar_background"  
+        />
+		<RelativeLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_marginTop="10dp"
+		    android:orientation="horizontal" >
+
+		    <Button
+		        android:id="@+id/stop"
+		        android:layout_width="36dp"
+		        android:layout_height="36dp"
+		        android:layout_alignParentTop="true"
+		        android:layout_centerHorizontal="true"
+		        android:background="@drawable/pause" />
+
+		    <Button
+		        android:id="@+id/reset"
+		        android:layout_width="36dp"
+		        android:layout_height="36dp"
+		        android:layout_alignParentTop="true"
+		        android:layout_marginRight="40dp"
+		        android:layout_toLeftOf="@+id/stop"
+		        android:background="@drawable/refresfe" />
+
+		    <Button
+		        android:id="@+id/home"
+		        android:layout_width="36dp"
+		        android:layout_height="36dp"
+		        android:layout_alignParentTop="true"
+		        android:layout_marginLeft="40dp"
+		        android:layout_toRightOf="@+id/stop"
+		        android:background="@drawable/sopen" />
+
+		</RelativeLayout>
+
+</LinearLayout>
+
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical" >
+
+		<TextView
+		    android:id="@+id/textView"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_marginLeft="25dp"
+		    android:layout_marginTop="15dp" />
+
+		<com.example.huochai.view.ExView
+		    android:id="@+id/exView"
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:layout_marginTop="10dp" />
+
+	</LinearLayout>
+	
+</LinearLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:grand="http://schemas.android.com/apk/res/com.example.huochai"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/room_background"
+    android:orientation="vertical" >
+    
+    <com.example.huochai.view.SettingItemView 
+        android:id="@+id/siv_update"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         grand:title="自动更新设置"
+         grand:desc_on="自动更新已开启"
+         grand:desc_of="自动更新已关闭"
+        />
+    <com.example.huochai.view.SettingItemView 
+        android:id="@+id/siv_open"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         grand:title="背景音乐设置"
+         grand:desc_on="背景音乐已开启"
+         grand:desc_of="背景音乐已关闭"
+        />
+
+    <EditText
+        android:id="@+id/ed_count"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="设置每个关卡的题数（整数）..."
+        android:inputType="number" 
+        android:textColor="#A0522D"/>
+
+
+    <EditText
+        android:id="@+id/ed_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="设置每个关卡所花费的时间（整数）..." 
+        android:inputType="number"
+        android:textColor="#A0522D"/>
+
+</LinearLayout>

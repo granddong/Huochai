@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/room_background" >
+
+	<LinearLayout
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_centerHorizontal="true"
+	    android:layout_centerVertical="true"
+	    android:layout_marginLeft="50dp"
+	    android:orientation="vertical" >
+
+	    <Button
+	        android:id="@+id/start"
+	        style="@style/welcome_button"
+	        android:layout_marginBottom="5dp"
+	        android:text="闭关修炼" 
+	        />
+
+	    <Button
+	        android:id="@+id/setup"
+	        style="@style/welcome_button"
+	        android:layout_marginBottom="5dp"
+	        android:text="辅助技能"
+	         />
+
+	    <Button
+	        android:id="@+id/about"
+	        style="@style/welcome_button"
+	        android:layout_marginBottom="5dp"
+	        android:text="火柴秘籍" />
+
+	    <Button
+	        android:id="@+id/exit"
+	        style="@style/welcome_button"
+	        android:text="大功告成" />
+	</LinearLayout>
+
+</RelativeLayout>

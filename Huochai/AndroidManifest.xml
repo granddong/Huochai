@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.huochai"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" android:requiredForAllUsers="true">
+        <activity
+            android:name="com.example.huochai.activity.SplashAcyivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name="com.example.huochai.activity.HomeActivity"></activity>
+        
+        
+        <activity android:name="com.example.huochai.activity.SetupActivity"></activity>
+       
+       <activity android:name="com.example.huochai.activity.AboutActivity"></activity>
+       
+       <activity android:name="com.example.huochai.activity.SelectViewActivity"></activity>
+        
+       <activity android:name="com.example.huochai.activity.MatchActivity"></activity>
+       
+        <activity android:name="com.example.huochai.activity.Fragment1"></activity>
+        
+        <activity android:name="com.example.huochai.activity.Fragment2"></activity>
+        
+        <activity android:name="com.example.huochai.activity.Guide1Activity"></activity>
+        
+        <activity android:name="com.example.huochai.activity.Guide2Activity"></activity>
+         
+        <activity android:name="com.example.huochai.activity.Guide3Activity"></activity>
+        
+         <activity android:name="com.example.huochai.activity.EndActivity"></activity>
+        
+        
+        
+        
+        
+    </application>
+
+</manifest>
